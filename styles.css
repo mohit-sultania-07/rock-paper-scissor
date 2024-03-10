@@ -1,0 +1,136 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1{
+    background-color:#081b31 ;
+    color: #fff;
+    height: 5rem;
+    line-height: 5rem;
+    width: 100vw;
+}
+
+.choice{
+    height: 19.313vh;
+    width: 10.313vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.choice:hover{
+    background-color:#081b31 ;
+    cursor: pointer;
+}
+img{
+    height: 17.375vh;
+    width: 9.375vw;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    gap: 3rem;
+}
+
+.score-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap:5rem;
+}
+
+#user-score, #comp-score{
+    font-size: 4rem;
+}
+
+.message{
+    margin-top: 5rem;
+}
+#message{
+    background-color: #081b31;
+    font-size: 2rem;
+    display: inline;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 1rem;
+    
+}
+
+
+@media(max-width:520px){
+    #message{
+    font-size: 1.5rem;
+    }
+    .choice{
+        height: 16vh;
+        width: 21.313vw;
+    }
+    img{
+        height: 14.375vh;
+        width: 19.375vw;
+    }
+    .container{
+        gap: 2rem;
+    }
+
+}
+@media(max-width:398px){
+    #message{
+        font-size: 1.25rem;
+    }
+    .choice{
+        height: 16vh;
+        width: 21.313vw;
+    }
+    img{
+        height: 14.375vh;
+        width: 19.375vw;
+    }
+    .container{
+        gap: 2rem;
+    }
+}
+@media(max-width:337px){
+    #message{
+        font-size: 1rem;
+    }
+    .choice{
+        height: 16vh;
+        width: 21.313vw;
+    }
+    img{
+        height: 14.375vh;
+        width: 19.375vw;
+    }
+    .container{
+        gap: 2rem;
+    }
+}
+@media(max-width:276px){
+    #message{
+        font-size: 0.75rem;
+    }
+    .choice{
+        height: 16vh;
+        width: 21.313vw;
+    }
+    img{
+        height: 14.375vh;
+        width: 19.375vw;
+    }
+    .container{
+        gap: 2rem;
+    }
+}
