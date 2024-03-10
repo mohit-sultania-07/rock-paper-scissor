@@ -57,9 +57,6 @@ img{
 
 .message{
     margin-top: 5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 #message{
     background-color: #081b31;
@@ -68,12 +65,11 @@ img{
     color: #fff;
     padding: 1rem;
     border-radius: 1rem;
-    width: 80%;
     
 }
 
 
-@media(max-width:520px){
+@media(max-width:582px){
     #message{
     font-size: 1.5rem;
     }
@@ -90,7 +86,7 @@ img{
     }
 
 }
-@media(max-width:398px){
+@media(max-width:446px){
     #message{
         font-size: 1.25rem;
     }
@@ -106,7 +102,7 @@ img{
         gap: 2rem;
     }
 }
-@media(max-width:337px){
+@media(max-width:384px){
     #message{
         font-size: 1rem;
     }
@@ -122,7 +118,7 @@ img{
         gap: 2rem;
     }
 }
-@media(max-width:276px){
+@media(max-width:314px){
     #message{
         font-size: 0.75rem;
     }
